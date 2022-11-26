@@ -74,7 +74,7 @@ body {
   list-style: none;
 }
 
-.nav-block list {
+.nav-block .list {
   display: inline;
   list-style: none;
 }
