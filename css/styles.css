@@ -6,8 +6,8 @@
 * {
   margin: 0;
   padding: 0;
-  }
-  
+}
+
 body {
   font-family: "Roboto", "sans-serif";
   color: #212121;
@@ -64,17 +64,19 @@ body {
   align-items: center;
 }
 
-.nav-block nav {
+.nav-block .navbar {
   display: inline;
 }
 
-.nav-block ul {
+.nav-block .ulist {
   display: flex;
   align-items: center;
+  list-style: none;
 }
 
-.nav-block li {
+.nav-block list {
   display: inline;
+  list-style: none;
 }
 
 .nav-style {
@@ -97,7 +99,7 @@ body {
   color: #fff;
 }
 
-.logo a {
+.logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -124,7 +126,7 @@ body {
   text-align: center;
 }
 
-.head-section-style h1 {
+.head-section-style .header {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -154,18 +156,18 @@ body {
   margin-bottom: 106px;
 }
 
-.info-section-style ul {
+.info-section-style .container {
   list-style: none;
 }
 
-.info-section-style h3 {
+.info-section-style .section-header {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.info-section-style p {
+.info-section-style .paragraph {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -173,7 +175,7 @@ body {
   padding-top: 10px;
 }
 
-.about-us-style h2 {
+.about-us-style .about-us {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -194,7 +196,7 @@ body {
   padding-top: 0px;
 }
 
-h2 {
+.about-us {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -202,6 +204,7 @@ h2 {
   letter-spacing: 0.03em;
   margin: auto;
   padding-bottom: 50px;
+  justify-content: center;
 }
 
 .section-background {
@@ -211,8 +214,7 @@ h2 {
 .white-box {
   background-color: #ffffff;
   width: 100%;
-  box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024,
-    0px 2px 1px #00000033;
+  box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024, 0px 2px 1px #00000033;
   border-radius: 0px 0px 4px 4px;
   margin: 0px;
 }
@@ -226,10 +228,16 @@ h2 {
   text-align: center;
 }
 
-.font-style-1 div {
+.font-style-1 {
+  color: #212121;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.division {
   color: var(--second-font-color);
   padding-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .footer-background {
@@ -242,14 +250,14 @@ h2 {
   padding-bottom: 60px;
 }
 
-.address-padding a {
+.address-padding {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff99;
 }
 
-.footer-style li {
+.footer-style .logo {
   list-style-type: none;
   font-style: normal;
 }
@@ -286,11 +294,11 @@ h2 {
   list-style: none;
 }
 
-.img-wrap li {
+.img-wrap .list {
   width: 370px;
 }
 
-.figcaption-padding div {
+.figcaption-padding .figcaption-division {
   padding-top: 13px;
   color: var(--second-font-color);
 }
